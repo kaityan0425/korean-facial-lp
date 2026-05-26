@@ -1,0 +1,477 @@
+/* =========================
+リセット
+========================= */
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+
+/* =========================
+全体設定
+========================= */
+
+body{
+  font-family:sans-serif;
+  line-height:1.8;
+  color:#222;
+  background:#f5f5f5;
+}
+
+img{
+  max-width:100%;
+  display:block;
+}
+
+.container{
+  width:min(100%, 1100px);
+  margin:auto;
+  padding:0 20px;
+}
+
+.narrow{
+  max-width:650px;
+  margin:auto;
+}
+
+section,
+header,
+footer{
+  padding:80px 0;
+}
+
+h1,h2,h3{
+  line-height:1.5;
+}
+
+h2{
+  text-align:center;
+  margin-bottom:40px;
+  font-size:28px;
+}
+
+
+/* =========================
+ボタン
+========================= */
+
+.btn{
+  transition:0.3s;
+  display:block;
+  margin:50px auto;
+  width:100%;
+  max-width:500px;
+
+  background:#efbfdc;
+  color:#222;
+  text-decoration:none;
+
+  padding:16px 40px;
+
+  border-radius:999px;
+  font-weight:bold;
+}
+
+.btn:hover{
+  opacity:0.8;
+}
+
+/* =========================
+FV
+========================= */
+
+.fv{
+  background:#fff;
+  text-align:center;
+  padding:80px 20px;
+}
+
+.fv-title{
+  font-size:40px;
+  margin-bottom:50px;
+}
+
+.lead{
+  margin-top:50px;
+  margin-bottom:50px;
+  text-align:left;
+}
+
+.fv-image-box{
+  width:260px;
+  height:260px;
+
+  margin-left:auto;
+
+  border:6px solid #f4d0e7;
+  border-radius:50%;
+  overflow:hidden;  
+}
+
+.fv-image{
+  width:100%;
+  height:100%;
+  
+  object-fit:cover;
+}
+.note,
+.small{
+  font-size:14px;
+  margin-top:50px;
+}
+
+
+/* =========================
+悩みセクション
+========================= */
+
+.trouble{
+  background:#fff;
+  margin-top:20px;
+}
+
+.trouble ul{
+  list-style:none;
+}
+
+.trouble li{
+  position:relative;
+
+  margin:55px 0;
+  padding-left:1.5em;
+}
+
+.trouble li::before{
+  content:'☑';
+
+  position:absolute;
+  left:0;
+  top:0;
+
+  font-weight:bold;
+}
+
+.message-box{
+  background:#fdf0f7;
+
+  padding:18px;
+  margin-top:30px;
+
+  text-align:center;
+  font-weight:bold;
+}
+
+
+/* =========================
+選ばれる理由
+========================= */
+
+.reason{
+  background:#fff;
+  margin-top:20px;
+}
+
+.reason-card{
+  max-width:650px;
+
+  border:1px solid #f4d0e7;
+  border-radius:12px;
+
+  padding:32px;
+  margin:0 auto 24px;
+}
+
+
+/* =========================
+施術の流れ
+========================= */
+
+.flow{
+  background:#fff;
+  margin-top:20px;
+}
+
+.flow-step{
+  max-width:650px;
+
+  border:1px solid #f4d0e7;
+  border-radius:12px;
+
+  padding:32px;
+  margin:0 auto 24px;
+}
+
+.flow-step span{
+  font-size:12px;
+  font-weight:bold;
+}
+
+
+/* =========================
+おすすめの人
+========================= */
+
+.recommend{
+  background:#fff;
+  margin-top:20px;
+
+  padding:80px 20px;
+  text-align:center;
+}
+
+.section-title{
+  font-size:32px;
+  font-weight:bold;
+
+  margin-bottom:60px;
+
+  color:#222;
+}
+
+.recommend-list{
+  display:flex;
+  flex-direction:column;
+  gap:28px;
+
+  align-items:center;
+}
+
+.recommend-item{
+  width:100%;
+  max-width:560px;
+
+  background:#fff;
+  border:1px solid #f4d0e7;
+  border-radius:12px;
+
+  padding:22px 30px;
+
+  font-size:18px;
+  color:#333;
+
+  text-align:left;
+}
+
+.check{
+  color:#efbfdc;
+  font-weight:bold;
+
+  margin-right:12px;
+}
+
+.recommend-message{
+  display:inline-block;
+
+  margin-top:50px;
+  padding:24px 40px;
+
+  background:#fdf0f7;
+  border-radius:12px;
+
+  font-size:24px;
+  font-weight:bold;
+  line-height:1.7;
+
+  color:#333;
+}
+
+
+/* =========================
+お客様の声
+========================= */
+
+.voice{
+  background:#fff;
+  margin-top:20px;
+}
+
+.review{
+  max-width:650px;
+
+  border:1px solid #f4d0e7;
+  border-radius:12px;
+
+  padding:24px;
+  margin:0 auto 20px;
+}
+
+.review .stars{
+  color:#d99ac0;
+  margin-bottom:10px;
+}
+
+
+/* =========================
+スタッフ紹介
+========================= */
+
+.staff{
+  background:#fff;
+  margin-top:20px;
+}
+
+.staff-box{
+  text-align:center;
+}
+
+.staff-image-box{
+  width:180px;
+  height:180px;
+
+  margin:0 auto 60px;
+  border-radius:50%;
+  overflow:hidden;
+
+}
+
+.staff-image{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+.career{
+  margin-bottom:60px;
+  font-size:14px;
+}
+
+.staff-text{
+  max-width:420px;
+  margin:0 auto;
+  text-align:left;
+}
+
+.staff-text p{
+  margin-bottom:30px;
+}
+
+/* =========================
+CTA
+========================= */
+
+.cta{
+  background:#fff;
+  margin-top:20px;
+  text-align:center;
+}
+
+.limited{
+  max-width:450px;
+  margin:0 auto;
+  text-align:left;
+}
+
+.limited p{
+  margin-bottom:30px;
+}
+
+/* =========================
+FAQ
+========================= */
+
+.faq{
+  background:#fff;
+  margin-top:20px;
+  text-align:center;
+}
+
+.faq-item{
+  max-width:650px;
+
+  border:1px solid #f4d0e7;
+  border-radius:12px;
+
+  padding:32px;
+  margin:0 auto 24px;
+  text-align:left;
+}
+
+.faq-cta-text{
+  margin:40px 0 20px;
+  font-size:14px;
+}
+
+
+/* =========================
+フッター
+========================= */
+
+.footer{
+  background:#fff;
+  margin-top:20px;
+
+  text-align:center;
+}
+
+.footer-message{
+  font-weight:bold;
+  margin-bottom:30px;
+}
+
+.shop-info{
+  max-width:320px;
+  margin:30px auto;
+  text-align:left;
+}
+
+.contact{
+  max-width:420px;
+  margin:0 auto 20px;
+  text-align:left;
+}
+
+.safe{
+  margin-bottom:20px;
+}
+
+/* =========================
+スマホ対応
+========================= */
+
+@media (max-width:768px){
+
+  section,
+  header,
+  footer{
+    padding:60px 0;
+  }
+
+  h1{
+    font-size:30px;
+  }
+
+  h2{
+    font-size:22px;
+  }
+
+  .btn{
+    width:100%;
+    text-align:center;
+  }
+
+  .section-title{
+    font-size:24px;
+    margin-bottom:40px;
+  }
+
+  .recommend-item{
+    font-size:14px;
+    padding:18px 20px;
+  }
+
+  .recommend-message{
+    width:100%;
+
+    font-size:18px;
+    padding:20px;
+  }
+
+  .reason-card,
+  .flow-step,
+  .review,
+  .faq-item{
+    padding:24px 20px;
+  }
+
+}
