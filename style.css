@@ -185,6 +185,8 @@ FV
 
   padding:32px;
   margin:0 auto 24px;
+
+  box-shadow:0 4px 12px rgba(0,0,0,0.05);
 }
 
 
@@ -203,6 +205,8 @@ FV
 
   padding:32px;
   margin:0 auto 24px;
+
+  box-shadow:0 4px 12px rgba(0,0,0,0.05);
 }
 
 .flow-step span{
@@ -251,6 +255,9 @@ FV
   color:#333;
 
   text-align:left;
+
+  box-shadow:0 4px 12px rgba(0,0,0,0.05);
+
 }
 
 .check{
@@ -294,6 +301,9 @@ FV
 
   padding:24px;
   margin:0 auto 20px;
+
+  box-shadow:0 4px 12px rgba(0,0,0,0.05);
+
 }
 
 .review .stars{
@@ -382,6 +392,9 @@ FAQ
   padding:32px;
   margin:0 auto 24px;
   text-align:left;
+
+  box-shadow:0 4px 12px rgba(0,0,0,0.05);
+
 }
 
 .faq-cta-text{
