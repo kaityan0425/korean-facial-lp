@@ -14,6 +14,7 @@
 ========================= */
 
 body{
+  font-size:16px;
   font-family:sans-serif;
   line-height:1.8;
   color:#222;
@@ -63,6 +64,7 @@ h2{
 ========================= */
 
 .btn{
+  font-size:16px;
   transition:0.3s;
   display:block;
   margin:50px auto;
@@ -297,6 +299,10 @@ FV
   margin-bottom:10px;
 }
 
+.review p,
+.faq-item p{
+  margin-top:12px;
+}
 
 /* =========================
 スタッフ紹介
@@ -424,7 +430,7 @@ FAQ
   }
 
   h1{
-    font-size:30px;
+    font-size:32px;
   }
 
   h2{
