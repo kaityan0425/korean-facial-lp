@@ -48,8 +48,13 @@ h1,h2,h3{
 
 h2{
   text-align:center;
-  margin-bottom:40px;
+  margin-bottom:50px;
   font-size:28px;
+}
+
+.section{
+  background:#fff;
+  margin-top:20px;
 }
 
 
@@ -129,8 +134,6 @@ FV
 ========================= */
 
 .trouble{
-  background:#fff;
-  margin-top:20px;
 }
 
 .trouble ul{
@@ -170,8 +173,6 @@ FV
 ========================= */
 
 .reason{
-  background:#fff;
-  margin-top:20px;
 }
 
 .reason-card{
@@ -190,8 +191,6 @@ FV
 ========================= */
 
 .flow{
-  background:#fff;
-  margin-top:20px;
 }
 
 .flow-step{
@@ -215,9 +214,6 @@ FV
 ========================= */
 
 .recommend{
-  background:#fff;
-  margin-top:20px;
-
   padding:80px 20px;
   text-align:center;
 }
@@ -284,8 +280,6 @@ FV
 ========================= */
 
 .voice{
-  background:#fff;
-  margin-top:20px;
 }
 
 .review{
@@ -309,8 +303,6 @@ FV
 ========================= */
 
 .staff{
-  background:#fff;
-  margin-top:20px;
 }
 
 .staff-box{
@@ -352,8 +344,6 @@ CTA
 ========================= */
 
 .cta{
-  background:#fff;
-  margin-top:20px;
   text-align:center;
 }
 
@@ -372,8 +362,6 @@ FAQ
 ========================= */
 
 .faq{
-  background:#fff;
-  margin-top:20px;
   text-align:center;
 }
 
@@ -399,9 +387,6 @@ FAQ
 ========================= */
 
 .footer{
-  background:#fff;
-  margin-top:20px;
-
   text-align:center;
 }
 
