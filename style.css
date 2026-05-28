@@ -58,6 +58,23 @@ h2{
   margin-top:20px;
 }
 
+.reason-card,
+.flow-step,
+.review,
+.faq-item,
+.recommend-item,
+.recommend-message{
+  transition:all 0.3s;
+}
+
+.reason-card:hover,
+.flow-step:hover,
+.review:hover,
+.faq-item:hover,
+.recommend-item:hover,
+.recommend-message:hover{
+  transform:translateY(-4px);
+}
 
 /* =========================
 ボタン
@@ -207,7 +224,7 @@ FV
 }
 
 .flow-step{
-  max-width:450px;
+  max-width:550px;
 
   border:1px solid #f4d0e7;
   border-radius:12px;
@@ -257,7 +274,7 @@ FV
 
 .recommend-item{
   width:100%;
-  max-width:350px;
+  max-width:450px;
 
   background:#fff;
   border:1px solid #f4d0e7;
