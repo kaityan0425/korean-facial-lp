@@ -50,7 +50,7 @@ h1,h2,h3{
 h2{
   text-align:center;
   margin-bottom:50px;
-  font-size:28px;
+  font-size:24px;
 }
 
 .section{
@@ -58,6 +58,7 @@ h2{
   margin-top:20px;
 }
 
+.message-box,
 .reason-card,
 .flow-step,
 .review,
@@ -67,6 +68,7 @@ h2{
   transition:all 0.3s;
 }
 
+.message-box:hover,
 .reason-card:hover,
 .flow-step:hover,
 .review:hover,
@@ -110,17 +112,17 @@ FV
 .fv{
   background:#fff;
   text-align:center;
-  padding:80px 20px;
+  padding:80px 40px;
 }
 
 .fv-title{
-  font-size:40px;
-  margin-bottom:50px;
+  font-size:24px;
+  margin-bottom:32px;
 }
 
 .lead{
-  margin-top:50px;
-  margin-bottom:50px;
+  max-width:800px;
+  margin:50px auto;
   text-align:left;
 }
 
@@ -129,6 +131,7 @@ FV
   height:260px;
 
   margin-left:auto;
+  margin-right:120px;
 
   border:6px solid #f4d0e7;
   border-radius:50%;
@@ -143,7 +146,7 @@ FV
 }
 .note,
 .small{
-  font-size:14px;
+  font-size:16px;
   margin-top:50px;
 }
 
@@ -256,7 +259,7 @@ FV
 }
 
 .section-title{
-  font-size:32px;
+  font-size:24px;
   font-weight:bold;
 
   margin-bottom:60px;
@@ -267,7 +270,7 @@ FV
 .recommend-list{
   display:flex;
   flex-direction:column;
-  gap:28px;
+  gap:40px;
 
   align-items:center;
 }
@@ -282,7 +285,7 @@ FV
 
   padding:22px 30px;
 
-  font-size:18px;
+  font-size:16px;
   color:#333;
 
   text-align:left;
@@ -308,7 +311,7 @@ FV
   background:#fdf0f7;
   border-radius:12px;
 
-  font-size:24px;
+  font-size:20px;
   font-weight:bold;
   line-height:1.7;
 
@@ -330,8 +333,8 @@ FV
   border:1px solid #f4d0e7;
   border-radius:12px;
 
-  padding:24px;
-  margin:0 auto 20px;
+  padding:32px;
+  margin:0 auto 30px;
 
   box-shadow:0 4px 12px rgba(0,0,0,0.05);
 
@@ -356,6 +359,15 @@ FV
 
 .staff-box{
   text-align:center;
+  margin:0 auto;
+}
+
+.staff-box h3,
+.career{
+  max-width:250px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:left;
 }
 
 .staff-image-box{
@@ -379,9 +391,10 @@ FV
 }
 
 .staff-text{
-  max-width:420px;
+  max-width:400px;
   margin:0 auto;
   text-align:left;
+  padding-left:50px;
 }
 
 .staff-text p{
@@ -440,6 +453,10 @@ FAQ
 
 .footer{
   text-align:center;
+}
+.footer-title{
+  font-size:18px;
+  font-weight:500;
 }
 
 .footer-message{
