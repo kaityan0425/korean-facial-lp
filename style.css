@@ -178,7 +178,7 @@ FV
 }
 
 .reason-card{
-  max-width:650px;
+  max-width:350px;
 
   border:1px solid #f4d0e7;
   border-radius:12px;
@@ -189,6 +189,15 @@ FV
   box-shadow:0 4px 12px rgba(0,0,0,0.05);
 }
 
+.reason-card p,
+.flow-step p{
+  line-height:2.5;
+}
+
+.reason-card h3,
+.flow-step h3{
+  margin-bottom:16px;
+}
 
 /* =========================
 施術の流れ
@@ -198,7 +207,7 @@ FV
 }
 
 .flow-step{
-  max-width:650px;
+  max-width:450px;
 
   border:1px solid #f4d0e7;
   border-radius:12px;
@@ -209,12 +218,17 @@ FV
   box-shadow:0 4px 12px rgba(0,0,0,0.05);
 }
 
-.flow-step span{
-  font-size:12px;
+.flow-step h3{
+  font-size:16px;
   font-weight:bold;
 }
 
-
+.arrow{
+  text-align:center;
+  font-size:32px;
+  margin-bottom:24px;
+  color:black;
+}
 /* =========================
 おすすめの人
 ========================= */
@@ -243,7 +257,7 @@ FV
 
 .recommend-item{
   width:100%;
-  max-width:560px;
+  max-width:350px;
 
   background:#fff;
   border:1px solid #f4d0e7;
@@ -268,7 +282,7 @@ FV
 }
 
 .recommend-message{
-  max-width:560px;
+  max-width:450px;
   margin:50px auto 0;
 
   margin-top:50px;
@@ -438,6 +452,10 @@ FAQ
 
 @media (max-width:768px){
 
+  .fv{
+    padding:60px 20px;
+  }
+
   section,
   header,
   footer{
@@ -472,6 +490,11 @@ FAQ
 
     font-size:18px;
     padding:20px;
+  }
+
+
+  .review{
+    font-size:15px;
   }
 
   .reason-card,
