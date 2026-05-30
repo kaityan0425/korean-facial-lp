@@ -434,10 +434,10 @@ FV
 }
 
 .staff-image-box{
-  width:180px;
-  height:180px;
+  width:200px;
+  height:200px;
 
-  margin:0 auto 60px;
+  margin:0 auto 80px;
   border-radius:50%;
   overflow:hidden;
 
