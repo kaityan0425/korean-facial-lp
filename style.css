@@ -86,18 +86,18 @@ h2{
   font-size:16px;
   transition:all 0.3s;
   display:block;
-  margin:50px auto;
+  margin:50px auto 70px;
   width:100%;
-  max-width:500px;
-
-  background:#efbfdc;
+  max-width:900px;
+  
+  background:#f3cfe4;
   color:#222;
   text-decoration:none;
 
-  padding:16px 40px;
+  padding:20px 40px;
 
   border-radius:999px;
-  font-weight:bold;
+  font-weight:500;
 }
 
 .btn:hover{
@@ -159,10 +159,10 @@ FV
 }
 .note,
 .small{
-  font-size:14px;
+  font-size:16px;
   margin-top:24px;
 
-  color:#666;
+  color:#222;
 }
 
 
@@ -474,12 +474,12 @@ CTA
 
 .limited{
   max-width:450px;
-  margin:0 auto;
+  margin:0 auto 60px;
   text-align:left;
 }
 
 .limited p{
-  margin-bottom:30px;
+  margin-bottom:20px;
 }
 
 /* =========================
