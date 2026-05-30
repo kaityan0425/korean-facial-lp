@@ -387,7 +387,7 @@ FV
   border-radius:12px;
 
   padding:32px;
-  margin:0 auto 30px;
+  margin:0 auto 40px;
 
   box-shadow:0 4px 12px rgba(0,0,0,0.05);
 
@@ -396,6 +396,16 @@ FV
 .review .stars{
   color:#d99ac0;
   margin-bottom:10px;
+}
+
+.review span{
+  font-size:15px;
+  color:#555;
+}
+
+.review .stars{
+  margin-top:0;
+  margin-bottom:12px;
 }
 
 .review p,
