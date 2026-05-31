@@ -62,7 +62,6 @@ h2{
 .reason-card,
 .flow-step,
 .review,
-.faq-item,
 .recommend-item,
 .recommend-message{
   transition:all 0.3s;
@@ -72,7 +71,6 @@ h2{
 .reason-card:hover,
 .flow-step:hover,
 .review:hover,
-.faq-item:hover,
 .recommend-item:hover,
 .recommend-message:hover{
   transform:translateY(-4px);
@@ -415,8 +413,7 @@ FV
   margin-bottom:12px;
 }
 
-.review p,
-.faq-item p{
+.review p{
   margin-top:12px;
 }
 
@@ -499,16 +496,13 @@ FAQ
 
 .faq-item{
   max-width:650px;
-
-  border:1px solid #f4d0e7;
-  border-radius:12px;
-
-  padding:32px;
-  margin:0 auto 24px;
+  margin:0 auto 70px;
   text-align:left;
+}
 
-  box-shadow:0 4px 12px rgba(0,0,0,0.05);
-
+.faq-item h3{
+  font-size:16px;
+  font-weight:600;
 }
 
 .faq-cta-text{
@@ -516,6 +510,10 @@ FAQ
   font-size:14px;
 }
 
+.faq-item p{
+  margin-top:10px;
+  line-height:2.3;
+}
 
 /* =========================
 フッター
@@ -547,7 +545,10 @@ FAQ
 }
 
 .safe{
-  margin-bottom:20px;
+  max-width:300px;
+  margin:0 auto 20px;
+  padding-left:25px;
+  text-align:left;
 }
 
 /* =========================
@@ -582,6 +583,10 @@ FAQ
   .section-title{
     font-size:24px;
     margin-bottom:40px;
+  }
+
+  .fv-image-box{
+    margin-right:20px;
   }
 
   .recommend-item{
