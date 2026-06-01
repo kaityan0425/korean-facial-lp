@@ -16,7 +16,7 @@
 body{
   font-size:16px;
   font-family:sans-serif;
-  line-height:1.8;
+  line-height:1.5;
   color:#222;
   background:#f5f5f5;
 }
@@ -180,13 +180,13 @@ FV
 
 .trouble ul{
   list-style:none;
-  padding-left:60px;
+  padding-left:70px;
 }
 
 .trouble li{
   position:relative;
 
-  margin:55px 0;
+  margin:75px 0;
   padding-left:1.5em;
 }
 
@@ -213,15 +213,13 @@ FV
 }
 
 .message-box{
-  max-width:520px;
+  max-width:400px;
   margin:40px auto 0;
-
-  padding:28px 24px;
 
   background:#fdf0f7;
   border-radius:12px;
   
-  padding:18px;
+  padding:20px 24px;
   margin-top:30px;
 
   text-align:center;
@@ -229,6 +227,13 @@ FV
   line-height:2;
 }
 
+.message-box p{
+  display:inline-block;
+  text-align:left;
+  font-size:16px;
+  color:#333; 
+  margin:0;
+}
 
 /* =========================
 選ばれる理由
@@ -277,7 +282,7 @@ FV
   max-width:550px;
   border:1px solid #f4d0e7;
   border-radius:12px;
-  padding:32px;
+  padding:20px;
   margin:0 auto 24px;
   box-shadow:0 4px 12px rgba(0,0,0,0.05);
 }
@@ -294,10 +299,9 @@ FV
 }
 
 .flow-text{
-  font-size:16px;
+  font-size:14px;
   font-weight:400;
   margin-top:28px;
-  line-height:2.2;
 }
 
 .arrow{
@@ -377,6 +381,11 @@ FV
   color:#333;
 }
 
+.recommend-message p{
+  display:inline-block;
+  text-align:left;
+  font-size:20px;
+}
 
 /* =========================
 お客様の声
@@ -387,6 +396,7 @@ FV
 
 .review{
   max-width:650px;
+  line-height:1.8;
 
   border:1px solid #f4d0e7;
   border-radius:12px;
@@ -401,6 +411,8 @@ FV
 .review .stars{
   color:#d99ac0;
   margin-bottom:10px;
+  letter-spacing:7px;
+  font-size:18px;
 }
 
 .review span{
@@ -414,7 +426,7 @@ FV
 }
 
 .review p{
-  margin-top:12px;
+  margin-top:15px;
 }
 
 /* =========================
@@ -465,7 +477,7 @@ FV
 }
 
 .staff-text p{
-  margin-bottom:30px;
+  margin-bottom:0px;
 }
 
 /* =========================
@@ -495,7 +507,7 @@ FAQ
 }
 
 .faq-item{
-  max-width:650px;
+  max-width:550px;
   margin:0 auto 70px;
   text-align:left;
 }
@@ -528,25 +540,25 @@ FAQ
 }
 
 .footer-message{
-  font-weight:bold;
-  margin-bottom:30px;
+  font-weight:600;
+  margin-bottom:40px;
 }
 
 .shop-info{
-  max-width:320px;
-  margin:30px auto;
+  max-width:400px;
+  margin:60px auto;
   text-align:left;
 }
 
 .contact{
-  max-width:420px;
-  margin:0 auto 20px;
+  max-width:400px;
+  margin:0 auto 60px;
   text-align:left;
 }
 
 .safe{
   max-width:300px;
-  margin:0 auto 20px;
+  margin:0 auto 60px;
   padding-left:25px;
   text-align:left;
 }
@@ -589,6 +601,9 @@ FAQ
     margin-right:20px;
   }
 
+  .flow-step{
+    max-width:420px;
+  }
   .recommend-item{
     font-size:14px;
     padding:18px 20px;
