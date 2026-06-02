@@ -1,18 +1,15 @@
 /* =========================
 リセット
 ========================= */
-
 *{
   margin:0;
   padding:0;
   box-sizing:border-box;
 }
 
-
 /* =========================
 全体設定
 ========================= */
-
 body{
   font-size:16px;
   font-family:sans-serif;
@@ -79,7 +76,6 @@ h2{
 /* =========================
 ボタン
 ========================= */
-
 .btn{
   font-size:16px;
   transition:all 0.3s;
@@ -109,7 +105,6 @@ h2{
 /* =========================
 FV
 ========================= */
-
 .fv{
   background:#fff;
   text-align:center;
@@ -118,13 +113,15 @@ FV
 
 .fv-title{
   font-size:24px;
-  margin-bottom:70px;
+  width:fit-content;
+  margin:0 auto 70px;
+  text-align:left;
 }
 
 .luce{
   display:block;
-  margin-left:-215px;
 }
+
 .fv-title span{
   display:block;
   margin-top:8px;
@@ -162,6 +159,7 @@ FV
   
   object-fit:cover;
 }
+
 .note,
 .small{
   font-size:16px;
@@ -170,14 +168,9 @@ FV
   color:#222;
 }
 
-
 /* =========================
 悩みセクション
 ========================= */
-
-.trouble{
-}
-
 .trouble ul{
   list-style:none;
   padding-left:70px;
@@ -214,14 +207,10 @@ FV
 
 .message-box{
   max-width:400px;
-  margin:40px auto 0;
-
+  margin:30px auto 0;
   background:#fdf0f7;
   border-radius:12px;
-  
   padding:20px 24px;
-  margin-top:30px;
-
   text-align:center;
   font-weight:700;
   line-height:2;
@@ -238,19 +227,12 @@ FV
 /* =========================
 選ばれる理由
 ========================= */
-
-.reason{
-}
-
 .reason-card{
   max-width:350px;
-
   border:1px solid #f4d0e7;
   border-radius:12px;
-
   padding:32px;
   margin:0 auto 24px;
-
   box-shadow:0 4px 12px rgba(0,0,0,0.05);
 }
 
@@ -267,17 +249,10 @@ FV
 .reason h2{
   margin-bottom:70px;
 }
-.reason-card:first-of-type{
-  margin-top:10px;
-}
 
 /* =========================
 施術の流れ
 ========================= */
-
-.flow{
-}
-
 .flow-step{
   max-width:550px;
   border:1px solid #f4d0e7;
@@ -314,7 +289,6 @@ FV
 /* =========================
 おすすめの人
 ========================= */
-
 .recommend{
   padding:80px 20px;
   text-align:center;
@@ -323,9 +297,7 @@ FV
 .section-title{
   font-size:24px;
   font-weight:bold;
-
   margin-bottom:60px;
-
   color:#222;
 }
 
@@ -340,20 +312,14 @@ FV
 .recommend-item{
   width:100%;
   max-width:450px;
-
   background:#fff;
   border:1px solid #f4d0e7;
   border-radius:12px;
-
   padding:22px 30px;
-
   font-size:16px;
   color:#333;
-
   text-align:left;
-
   box-shadow:0 4px 12px rgba(0,0,0,0.05);
-
 }
 
 .check{
@@ -366,17 +332,12 @@ FV
 .recommend-message{
   max-width:450px;
   margin:50px auto 0;
-
-  margin-top:50px;
   padding:24px 40px;
-
   background:#fdf0f7;
   border-radius:12px;
-
   font-size:20px;
   font-weight:bold;
   line-height:1.7;
-
   text-align:center;
   color:#333;
 }
@@ -390,39 +351,26 @@ FV
 /* =========================
 お客様の声
 ========================= */
-
-.voice{
-}
-
 .review{
   max-width:650px;
   line-height:1.8;
-
   border:1px solid #f4d0e7;
   border-radius:12px;
-
   padding:32px;
   margin:0 auto 40px;
-
   box-shadow:0 4px 12px rgba(0,0,0,0.05);
-
 }
 
 .review .stars{
   color:#d99ac0;
-  margin-bottom:10px;
+  margin-top:0;
+  margin-bottom:12px;
   letter-spacing:7px;
   font-size:18px;
 }
 
 .review span{
-  font-size:15px;
   color:#555;
-}
-
-.review .stars{
-  margin-top:0;
-  margin-bottom:12px;
 }
 
 .review p{
@@ -432,10 +380,6 @@ FV
 /* =========================
 スタッフ紹介
 ========================= */
-
-.staff{
-}
-
 .staff-box{
   text-align:center;
   margin:0 auto;
@@ -452,11 +396,9 @@ FV
 .staff-image-box{
   width:200px;
   height:200px;
-
   margin:0 auto 80px;
   border-radius:50%;
   overflow:hidden;
-
 }
 
 .staff-image{
@@ -464,6 +406,7 @@ FV
   height:100%;
   object-fit:cover;
 }
+
 .career{
   margin-bottom:60px;
   font-size:14px;
@@ -483,7 +426,6 @@ FV
 /* =========================
 CTA
 ========================= */
-
 .cta{
   text-align:center;
 }
@@ -494,14 +436,13 @@ CTA
   text-align:left;
 }
 
-.limited p{
+.limited p:not(:last-child){
   margin-bottom:20px;
 }
 
 /* =========================
 FAQ
 ========================= */
-
 .faq{
   text-align:center;
 }
@@ -517,11 +458,6 @@ FAQ
   font-weight:600;
 }
 
-.faq-cta-text{
-  margin:40px 0 20px;
-  font-size:14px;
-}
-
 .faq-item p{
   margin-top:10px;
   line-height:2.3;
@@ -530,7 +466,6 @@ FAQ
 /* =========================
 フッター
 ========================= */
-
 .footer{
   text-align:center;
 }
@@ -566,7 +501,6 @@ FAQ
 /* =========================
 スマホ対応
 ========================= */
-
 @media (max-width:768px){
 
   .fv{
@@ -604,6 +538,7 @@ FAQ
   .flow-step{
     max-width:420px;
   }
+
   .recommend-item{
     font-size:14px;
     padding:18px 20px;
@@ -611,11 +546,9 @@ FAQ
 
   .recommend-message{
     width:100%;
-
     font-size:18px;
     padding:20px;
   }
-
 
   .review{
     font-size:15px;
