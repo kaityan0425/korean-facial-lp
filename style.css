@@ -459,6 +459,9 @@ CTA
   text-align:center;
 }
 
+.cta p{
+  margin-bottom:40px;
+}
 .limited{
   max-width:450px;
   margin:0 auto 60px;
@@ -467,6 +470,12 @@ CTA
 
 .limited p:not(:last-child){
   margin-bottom:20px;
+}
+
+.campaign-price{
+  font-size:24px;
+  font-weight:bold;
+  color:#d88ab6;
 }
 
 /* =========================
