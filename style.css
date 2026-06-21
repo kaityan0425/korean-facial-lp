@@ -544,7 +544,9 @@ FAQ
   .fv{
     padding:60px 20px;
   }
-
+  .lead{
+    margin-bottom: 20px;
+  }
   section,
   header,
   footer{
@@ -596,6 +598,9 @@ FAQ
     font-size:15px;
   }
 
+  .staff-text p{
+    font-size:15px;
+  }
   .reason-card,
   .flow-step,
   .review,
